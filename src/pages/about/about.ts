@@ -7,6 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
+  AddTask = 'Add Task';
+
   constructor(public navCtrl: NavController) {
 
   }
