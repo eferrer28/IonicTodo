@@ -8,6 +8,16 @@
 
 <ion-content padding>
 
-  <button ion-button (click)="addTask()" color="danger">Add Task</button>
+  <ion-item>
+  <ion-label stacked>Task Name</ion-label>
+  <ion-input type="text" [(ngModel)]="title"></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label stacked>Description</ion-label>
+  <ion-input type="test" [(ngModel)]="description"></ion-input>
+</ion-item>
+
+  <button ion-button type="submit" (click)="addTask()" color="primary">Add Task</button>
 
 </ion-content>

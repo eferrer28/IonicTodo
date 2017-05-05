@@ -7,13 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class AboutPage {
 
+  todo = {}
   AddTask = 'Add Task';
 
   constructor(public navCtrl: NavController) {
 
   }
   addTask(){
-    
+
   }
 
 
