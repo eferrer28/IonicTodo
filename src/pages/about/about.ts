@@ -23,10 +23,11 @@ export class AboutPage {
     };
     this.items.push(newTask);
   //this.navCtrl.push(HomePage, newTask)
+  //console.log('hi');
   console.log(newTask.title);
   console.log(newTask);
   console.log(  JSON.stringify(this.items));
-  this.storage.set("thelist", JSON.stringify(this.items));
+  this.storage.set('thelist', JSON.stringify(this.items));
 
   }
 
