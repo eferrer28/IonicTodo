@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { AboutPage } from '../pages/about/about';
+import { Storage } from '@ionic/storage';
+
 
 @Component({
   selector: 'page-home',
