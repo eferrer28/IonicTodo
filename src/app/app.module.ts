@@ -5,6 +5,8 @@ import { MyApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { HomePage } from '../pages/home/home';
+import { DetailsPage } from '../pages/details/details';
+
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -15,6 +17,7 @@ import { IonicStorageModule } from '@ionic/storage';
     MyApp,
     AboutPage,
     HomePage,
+    DetailsPage,
     TabsPage
   ],
   imports: [
@@ -26,6 +29,7 @@ import { IonicStorageModule } from '@ionic/storage';
   entryComponents: [
     MyApp,
     AboutPage,
+    DetailsPage,
     HomePage,
     TabsPage
   ],

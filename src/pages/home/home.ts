@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-//import { AboutPage } from '../pages/about/about';
+import { DetailsPage } from '../details/details';
+
 import { Storage } from '@ionic/storage';
 
 
@@ -38,7 +39,10 @@ export class HomePage {
 
 
   }
-  viewDetails(){
+  viewDetails(item){
+    this.navCtrl.push(DetailsPage, {
+      item: item
+    })
 
   }
 
